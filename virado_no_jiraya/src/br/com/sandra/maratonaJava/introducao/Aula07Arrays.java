@@ -28,13 +28,13 @@ public class Aula07Arrays {
         }
 
         // como deixar o código mais dinâmico, sem precisar ficar alterando o 4 do for
-        System.out.println("---------lenght (mais dinámico)-----------");
+        System.out.println("---------lenght-----------");
         for (int i = 0; i < nomes.length; i++) { // usando o .length para pegar o tamanho do array
             System.out.println(nomes[i]); // imprimindo os valores do array
         }
 
         System.out.println("--------for each------------");
-        // outra forma de percorrer o array, usando o for each
+        // outra forma de percorrer o array, usando o for each mais simples
         for (String nome : nomes) { // para cada nome dentro do array nomes faça isso
             System.out.println(nome); // imprimindo os valores do array
         }
