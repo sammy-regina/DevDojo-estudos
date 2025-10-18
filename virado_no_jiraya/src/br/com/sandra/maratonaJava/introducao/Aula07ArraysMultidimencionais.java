@@ -13,7 +13,14 @@ public class Aula07ArraysMultidimencionais {
 
         for (int i = 0; i < dias.length; i++) {
             for (int j = 0; j < dias[i].length; j++) {
-                System.out.println(dias[i][j] + " ");
+                System.out.println(dias[i][j]);
+            }
+        }
+
+        System.out.println("------------array base-------------");
+        for (int[] arrBase : dias) { //foreach na array base ele pega cada array interna
+            for (int num : arrBase) { // foreach na array interna
+                System.out.println(num);
             }
         }
     }
