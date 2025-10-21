@@ -8,6 +8,8 @@ public class EstudanteTest01 {
         estudante.nome = "Sandra";
         estudante.idade = 35;
         estudante.sexo = 'F';
+
+        System.out.println("--- Dados do Estudante ---");
         System.out.println("Nome: " + estudante.nome + "\nIdade: " + estudante.idade + "\nSexo: " + estudante.sexo);
     }
 }
