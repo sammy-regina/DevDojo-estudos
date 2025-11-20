@@ -1,4 +1,4 @@
-package test;
+package src.br.com.sandra.maratonaJavaCore.AintroducaoClasses.test;
 
 import src.br.com.sandra.maratonaJavaCore.AintroducaoClasses.dominio.Professor;
 
