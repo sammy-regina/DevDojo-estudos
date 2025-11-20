@@ -10,5 +10,8 @@ public class CalculadoraTeste03 {
         System.out.println("Fim do Teste 03A");
 
         System.out.println("-------------------");
+
+        System.out.println(calculadora.divideDoisNumeros02(20, 0));
+        System.out.println("Fim do Teste 03B");
     }
 }
